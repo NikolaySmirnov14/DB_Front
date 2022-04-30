@@ -1,0 +1,77 @@
+html,
+body {
+    height: 100%;
+    color: #fff;!important;
+    background: #0b172a;
+
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color:#fff;
+
+}
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #bc4123;
+}
+.table{
+    color: #fff;!important;
+    --bs-table-striped-color: #fff;
+    --bs-table-hover-color: #bc4123;
+    --bs-table-active-color: #bc4123;
+}
+#sidebar-nav {
+    width: 160px;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+#sidebutton{
+    color: #fff;
+    background-color: #bc4123;
+    border: 1px solid #bc4123!important;
+}
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #463940!important;
+    position: fixed;
+}
+.l-navbar {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+section
+{
+    padding-top: 50px;
+
+    padding-bottom: 50px;
+}
