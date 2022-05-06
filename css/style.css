@@ -19,6 +19,7 @@ body {
     background-color:#fff;
 
 }
+
 main {
     display: flex;
     flex-wrap: nowrap;
@@ -28,9 +29,19 @@ main {
     overflow-x: auto;
     overflow-y: hidden;
 }
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: #bc4123;
+}
+.table-responsive {
+    margin: 30px 0;
+}
+.table-wrapper {
+    min-width: 1000px;
+    padding: 20px 25px;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 .table{
     color: #fff;!important;
@@ -38,6 +49,33 @@ main {
     --bs-table-hover-color: #bc4123;
     --bs-table-active-color: #bc4123;
 }
+.table-title {
+    padding-bottom: 15px;
+    background: #495164;
+    color: #fff;
+    padding: 16px 30px;
+    margin: -20px -25px 10px;
+    border-radius: 3px 3px 0 0;
+}
+.table-title h2 {
+    margin: 5px 0 0;
+    font-size: 36px;
+}
+.table-title .btn-group {
+    float: right;
+}
+.table-title .btn {
+    color: #fff;
+    float: right;
+    font-size: 16px;
+    border: none;
+    min-width: 50px;
+    border-radius: 2px;
+    border: none;
+    outline: none !important;
+    margin-left: 10px;
+}
+
 #sidebar-nav {
     width: 160px;
     z-index: 1; /* Stay on top */
@@ -48,6 +86,8 @@ main {
     box-shadow: none;
 }
 #sidebutton{
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
     color: #fff;
     background-color: #bc4123;
     border: 1px solid #bc4123!important;
@@ -57,31 +97,11 @@ main {
     background-color: #463940!important;
     position: fixed;
 }
-.col {
-    flex: 1 0 0%;
 
-}
-.l-navbar {
-    height: 100%;
-    width: 0px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
 .modal{
     background-color: rgba(17, 17, 17, 0.25);
 }
 .modal-content{
     background-color: #0b172a;
 }
-section
-{
-    padding-top: 50px;
 
-    padding-bottom: 50px;
-}
