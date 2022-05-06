@@ -57,6 +57,10 @@ main {
     background-color: #463940!important;
     position: fixed;
 }
+.col {
+    flex: 1 0 0%;
+
+}
 .l-navbar {
     height: 100%;
     width: 0px;
@@ -68,6 +72,12 @@ main {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+}
+.modal{
+    background-color: rgba(17, 17, 17, 0.25);
+}
+.modal-content{
+    background-color: #0b172a;
 }
 section
 {
